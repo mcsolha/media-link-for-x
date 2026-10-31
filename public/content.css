@@ -1,0 +1,10 @@
+/* Estilos injetados no x.com. Prefixo xml- para não colidir com classes do X. */
+.xml-host { position: relative; }
+.xml-btn { position: absolute; top: 8px; right: 8px; z-index: 10; display: none; gap: 4px; }
+.xml-host:hover > .xml-btn, .xml-btn:focus-within { display: flex; }
+.xml-btn button { font: 600 12px system-ui, sans-serif; color: #fff; background: rgba(15,20,25,.8); border: 1px solid rgba(255,255,255,.3); border-radius: 999px; padding: 4px 10px; cursor: pointer; }
+.xml-btn button:hover { background: rgba(29,155,240,.95); }
+.xml-menuitem { display: flex; align-items: center; padding: 12px 16px; font: 700 15px system-ui, sans-serif; cursor: pointer; color: inherit; }
+.xml-menuitem:hover { background: rgba(127,127,127,.12); }
+.xml-sub { padding-left: 32px; font-weight: 400; }
+.xml-toast { position: fixed; left: 50%; bottom: 32px; transform: translateX(-50%); background: #1d9bf0; color: #fff; padding: 10px 18px; border-radius: 6px; font: 600 14px system-ui, sans-serif; z-index: 2147483647; box-shadow: 0 4px 12px rgba(0,0,0,.3); transition: opacity .3s; }
