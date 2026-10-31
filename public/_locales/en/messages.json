@@ -1,7 +1,11 @@
 {
-  "name": { "message": "Media Link for X" },
-  "shortName": { "message": "Media Link" },
+  "name": {
+    "message": "Media Link for X"
+  },
+  "shortName": {
+    "message": "Media Link"
+  },
   "description": {
-    "message": "Copy the media link (…/photo/N, …/video/N) of posts on x.com, like the mobile app. Not affiliated with, sponsored or endorsed by X Corp."
+    "message": "Copy the media link (photo, video or GIF) of posts on x.com, like the mobile app. Not affiliated with X Corp."
   }
 }
