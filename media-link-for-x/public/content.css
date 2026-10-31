@@ -1,0 +1,74 @@
+/* Estilos injetados no x.com. Prefixo mlx- para não colidir com classes do X. */
+.mlx-host {
+  position: relative;
+}
+.mlx-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 10;
+  display: none;
+  gap: 4px;
+}
+.mlx-host:hover > .mlx-btn,
+.mlx-btn:focus-within {
+  display: flex;
+}
+.mlx-btn button {
+  font:
+    600 12px system-ui,
+    sans-serif;
+  color: #fff;
+  background: rgba(15, 20, 25, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 999px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+.mlx-btn button:hover {
+  background: rgba(15, 118, 110, 0.95);
+}
+.mlx-menuitem {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  font:
+    700 15px system-ui,
+    sans-serif;
+  cursor: pointer;
+  color: inherit;
+}
+.mlx-menuitem:hover {
+  background: rgba(127, 127, 127, 0.12);
+}
+.mlx-sub {
+  padding-left: 32px;
+  font-weight: 400;
+}
+.mlx-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 32px;
+  transform: translateX(-50%);
+  background: #0f766e;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font:
+    600 14px system-ui,
+    sans-serif;
+  z-index: 2147483647;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s;
+}
+.mlx-header {
+  cursor: default;
+}
+.mlx-header:hover {
+  background: transparent;
+}
+.mlx-menuitem:focus-visible,
+.mlx-btn button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: -2px;
+}

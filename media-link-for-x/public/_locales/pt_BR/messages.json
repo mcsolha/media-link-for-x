@@ -1,0 +1,7 @@
+{
+  "name": { "message": "Media Link for X" },
+  "shortName": { "message": "Media Link" },
+  "description": {
+    "message": "Copia o link da mídia (…/photo/N, …/video/N) de posts no x.com, como no app. Não afiliado, patrocinado ou endossado pela X Corp."
+  }
+}
